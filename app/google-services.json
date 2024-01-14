@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "593112424557",
+    "project_id": "teretana-5e9a5",
+    "storage_bucket": "teretana-5e9a5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593112424557:android:1b2bcbd3d87538019b9f64",
+        "android_client_info": {
+          "package_name": "ba.sum.fsre.teretana"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVtxE6J5Pwf2ZNHDnRwPKZ7bHJ4LwJCjo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
