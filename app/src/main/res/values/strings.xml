@@ -1,10 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Teretana</string>
-    <string name="login">Login</string>
-    <string name="email">email</string>
-    <string name="password">password</string>
-    <string name="register">Register</string>
-    <string name="click_to_login">Click to login</string>
-    <string name="click_to_register">Click to register</string>
-    <string name="logout">Logout</string>
+    <!-- login strings -->
+
+    <string name="app_name">Interface</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="more_string">MORE</string>
+    <string name="citat">Neki motivirajuci citat od Shvajcenegera</string>
+    <string name="text_string">E-mail</string>
+    <string name="text_ek1_string">Lozinka</string>
+    <string name="bot_o_string">Prijavi se</string>
+    <string name="prijavi_se_string">Prijavi se</string>
+    <string name="nemate_ra_un__registrirajte_se__string">Nemate raun? Registrirajte se!</string>
+    <string name="text_ek2_string">Lozinka</string>
+    <string name="text_ek3_string">Potvrdilozinku</string>
+    <string name="registrirajse">Registriraj se</string>
+    <string name="vratisenaprijavu">Vrati se na prijavu</string>
+    <string name="bot_o_ek1_string">Registriraj se</string>
 </resources>

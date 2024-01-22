@@ -1,66 +1,309 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:padding="15dp"
-    android:gravity="center"
-    android:layout_height="match_parent"
-    tools:context=".Register">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:text="@string/register"
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:layout_marginBottom="20dp"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+        android:layout_height="match_parent"
+        android:background="#00000A">
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/email"
-            android:hint="@string/email"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:id="@+id/text_field_ek3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="416dp">
 
-    </com.google.android.material.textfield.TextInputLayout>
+            <View
+                android:id="@+id/_bg__text_field_ek3"
+                android:layout_width="348dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/_bg__text_field_ek3_shape" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" >
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="330.6dp"
+                android:layout_height="28.6dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/text_ek3_string"
+                android:textColor="@color/text_color"
+                android:textSize="16sp" />
 
-        <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/password"
-            android:hint="@string/password"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+        </RelativeLayout>
 
-    </com.google.android.material.textfield.TextInputLayout>
+        <TextView
+            android:id="@+id/registriraj_se"
+            android:layout_width="355dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center_horizontal|center"
+            android:layout_marginLeft="37dp"
+            android:layout_marginTop="202dp"
+            android:gravity="center"
+            android:text="@string/registrirajse"
+            android:textColor="@color/neki_motivirajuci_citat_od_shvajcenegera_color"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
-    <ProgressBar
-        android:id="@+id/progressBar"
-        android:visibility="gone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:id="@+id/button_outline"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="630dp">
 
-    <Button
-        android:id="@+id/btn_register"
-        android:text="@string/register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+            <View
+                android:layout_width="348dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="-1dp"
+                android:layout_marginTop="-1dp"
+                android:background="@drawable/_bg__button_outline_ek1_shape" />
 
-    <TextView
-        android:textSize="25sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:layout_marginBottom="20dp"
-        android:id="@+id/loginNow"
-        android:text="@string/click_to_login"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/registerNow"
+                android:layout_width="match_parent"
+                android:layout_height="28.6dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/vratisenaprijavu"
+                android:textColor="@color/bot_o_ek1_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
 
-</LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="89dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginEnd="68dp">
+
+            <View
+                android:id="@+id/_bg__logo_ek1"
+                android:layout_width="wrap_content"
+                android:layout_height="62dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/_bg__logo_ek1_shape" />
+
+
+            <RelativeLayout
+                android:id="@+id/frame_34198"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="59.5dp"
+                android:layout_marginTop="0dp">
+
+                <View
+                    android:id="@+id/_bg__frame_34198_ek1"
+                    android:layout_width="130dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/_bg__frame_34198_ek1_shape" />
+
+
+                <RelativeLayout
+                    android:id="@+id/barbell"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp">
+
+                    <View
+                        android:id="@+id/_bg__barbell_ek1"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:background="@drawable/_bg__barbell_ek1_shape" />
+
+                    <ImageView
+                        android:id="@+id/vector__stroke_"
+                        android:layout_width="8.75dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="7.5dp"
+                        android:layout_marginTop="7.5dp"
+                        android:contentDescription="vector__stroke_"
+                        android:src="@drawable/vector__stroke_" />
+
+                    <ImageView
+                        android:id="@+id/vector__stroke__ek1"
+                        android:layout_width="8.75dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart="23.75dp"
+                        android:layout_marginTop="7.5dp"
+                        android:contentDescription="vector__stroke__ek1"
+                        android:src="@drawable/vector__stroke__ek1" />
+
+                    <ImageView
+                        android:id="@+id/vector__stroke__ek2"
+                        android:layout_width="7.5dp"
+                        android:layout_height="17.5dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="11.25dp"
+                        android:contentDescription="vector__stroke__ek2"
+                        android:src="@drawable/vector__stroke__ek2" />
+
+                    <ImageView
+                        android:id="@+id/vector__stroke__ek3"
+                        android:layout_width="7.5dp"
+                        android:layout_height="17.5dp"
+                        android:layout_marginStart="2.5dp"
+                        android:layout_marginTop="11.25dp"
+                        android:contentDescription="vector__stroke__ek3"
+                        android:src="@drawable/vector__stroke__ek3" />
+
+                    <ImageView
+                        android:id="@+id/vector__stroke__ek4"
+                        android:layout_width="12.5dp"
+                        android:layout_height="2.5dp"
+                        android:layout_marginStart="13.75dp"
+                        android:layout_marginTop="18.75dp"
+                        android:contentDescription="vector__stroke__ek4"
+                        android:src="@drawable/vector__stroke__ek4" />
+
+                    <ImageView
+                        android:id="@+id/vector__stroke__ek5"
+                        android:layout_width="5dp"
+                        android:layout_height="2.5dp"
+                        android:layout_marginStart="35dp"
+                        android:layout_marginTop="18.75dp"
+                        android:contentDescription="vector__stroke__ek5"
+                        android:src="@drawable/vector__stroke__ek5" />
+
+                    <ImageView
+                        android:id="@+id/vector__stroke__ek6"
+                        android:layout_width="5dp"
+                        android:layout_height="2.5dp"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="18.75dp"
+                        android:contentDescription="vector__stroke__ek6"
+                        android:src="@drawable/vector__stroke__ek6" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/more"
+                    android:layout_width="86dp"
+                    android:layout_height="41.8dp"
+                    android:layout_gravity="center_horizontal|center"
+                    android:layout_marginLeft="47dp"
+                    android:layout_marginTop="3.5dp"
+                    android:gravity="center"
+                    android:text="@string/more_string"
+                    android:textColor="@color/more_color"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/neki_motivirajuci_citat_od_shvajcenegera"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginLeft="-2dp"
+                android:layout_marginTop="40dp"
+                android:gravity="center"
+                android:text="@string/citat"
+                android:textColor="@color/neki_motivirajuci_citat_od_shvajcenegera_color"
+                android:textSize="14sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/text_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="272dp">
+
+            <View
+                android:id="@+id/_bg__text_field_ek1"
+                android:layout_width="348dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/_bg__text_field_ek1_shape" />
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="330.6dp"
+                android:layout_height="28.6dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:ems="10"
+                android:inputType="text"
+                android:text="@string/text_string"
+                android:textColor="@color/text_color"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/text_field_ek3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="344dp">
+
+            <View
+                android:id="@+id/_bg__text_field_ek3"
+                android:layout_width="348dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/_bg__text_field_ek3_shape" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="330.6dp"
+                android:layout_height="28.6dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/text_ek1_string"
+                android:textColor="@color/text_color"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="500dp">
+
+            <View
+                android:id="@+id/btn_login"
+                android:layout_width="348dp"
+                android:layout_height="56dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/_bg__button_solid_ek1_shape" />
+
+            <TextView
+                android:id="@+id/bot_o"
+                android:layout_width="match_parent"
+                android:layout_height="28.6dp"
+                android:layout_gravity="center_horizontal|center"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/registrirajse"
+                android:textColor="@color/more_color"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
