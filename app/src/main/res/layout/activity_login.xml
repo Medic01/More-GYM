@@ -13,6 +13,7 @@
             android:layout_width="355dp"
             android:layout_height="30.6dp"
             android:layout_gravity="center_horizontal|center"
+            android:layout_marginStart="30dp"
             android:layout_marginLeft="37dp"
             android:layout_marginTop="580dp"
             android:gravity="center"
@@ -25,6 +26,7 @@
             android:layout_width="355dp"
             android:layout_height="38dp"
             android:layout_gravity="center_horizontal|center"
+            android:layout_marginStart="30dp"
             android:layout_marginLeft="37dp"
             android:layout_marginTop="230dp"
             android:gravity="center"
@@ -34,10 +36,10 @@
             android:textStyle="bold" />
 
         <RelativeLayout
-            android:id="@+id/button_outline"
+            android:id="@+id/btn_register"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
+            android:layout_marginStart="30dp"
             android:layout_marginTop="630dp">
 
             <View
@@ -68,7 +70,7 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
-            android:layout_marginStart="89dp"
+            android:layout_marginStart="79dp"
             android:layout_marginTop="128dp"
             android:layout_marginEnd="68dp">
 
@@ -210,7 +212,7 @@
             android:id="@+id/text_field"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
+            android:layout_marginStart="30dp"
             android:layout_marginTop="300dp">
 
             <View
@@ -239,7 +241,7 @@
             android:id="@+id/text_field_ek3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
+            android:layout_marginStart="30dp"
             android:layout_marginTop="372dp">
 
             <View
@@ -265,7 +267,7 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
+            android:layout_marginStart="30dp"
             android:layout_marginTop="460dp">
 
             <View

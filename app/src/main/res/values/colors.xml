@@ -13,6 +13,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="registriraj_se_color">#E1E1E6</color>
+    <color name="_bg__header_ek1_color">#202024</color>
+    <color name="filtro_ek1_color">#C3C3CC</color>
 
     <color name="_bg__login_ek2_color">#121214</color>
     <color name="_bg__logo_ek1_color">#000000</color>
@@ -21,4 +23,6 @@
     <color name="text_color">#7C7C8A</color>
     <color name="_bg__button_solid_ek1_color">#00875F</color>
     <color name="bot_o_ek1_color">#00B37E</color>
+
+
 </resources>

@@ -7,6 +7,10 @@
     <string name="more_string">MORE</string>
     <string name="citat">Neki motivirajuci citat od Shvajcenegera</string>
     <string name="text_string">E-mail</string>
+    <string name="profil">Profil</string>
+    <string name="profil_promjeni_fotografiju">Promjeni fotografiju</string>
+    <string name="logout">Odjavi se</string>
+
     <string name="text_ek1_string">Lozinka</string>
     <string name="bot_o_string">Prijavi se</string>
     <string name="prijavi_se_string">Prijavi se</string>
@@ -16,4 +20,41 @@
     <string name="registrirajse">Registriraj se</string>
     <string name="vratisenaprijavu">Vrati se na prijavu</string>
     <string name="bot_o_ek1_string">Registriraj se</string>
+
+    <string name="ime_vjezbe">Ime vježbe</string>
+    <string name="ime_vjezbe_unestie">Unesite naziv vježbe</string>
+    <string name="broj_ponavljanja">Broj ponavljanja</string>
+    <string name="broj_ponavljanja_unestie">Unestie broj ponavljanja</string>
+    <string name="kratki_opis_vjezbe">Kratki opis vježbe</string>
+    <string name="kratki_opis_vjezbe_unesite">Unesite kratki opis vježbe</string>
+    <string name="ucitaj_fotografiju">Dodaj fotografiju</string>
+    <string name="dodaj_fotografiju">Dodaj fotografiju</string>
+    <string name="gotovo">Gotovo</string>
+
+    <string name="biceps_string">BICEPS</string>
+    <string name="triceps_string">TRICEPS</string>
+    <string name="prsa_string">PRSA</string>
+    <string name="leđa_string">LEĐA</string>
+    <string name="noge_string">NOGE</string>
+    <string name="stomak_string">STOMAK</string>
+
+    <string name="biceps_string_lower">Biceps</string>
+    <string name="triceps_string_lower">Triceps</string>
+    <string name="prsa_string_lower">Prsa</string>
+    <string name="leđa_string_lower">Leđa</string>
+    <string name="noge_string_lower">Noge</string>
+    <string name="stomak_string_lower">Stomak</string>
+
+
+
+    <string name="vjezba1">Bench press</string>
+    <string name="ponavljaja1">3 serije x 8 ponavljanja</string>
+
+    <string name="vjezba2">Incline dumbell press</string>
+    <string name="ponavljaja2">3 serije x 8 ponavljanja</string>
+
+    <string name="serije">3 serije</string>
+    <string name="ponaljanja">12 ponavljanja</string>
+
+
 </resources>
