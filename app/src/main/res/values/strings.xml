@@ -10,6 +10,7 @@
     <string name="profil">Profil</string>
     <string name="profil_promjeni_fotografiju">Promjeni fotografiju</string>
     <string name="logout">Odjavi se</string>
+    <string name="login"> LOGIN</string>
 
     <string name="text_ek1_string">Lozinka</string>
     <string name="bot_o_string">Prijavi se</string>

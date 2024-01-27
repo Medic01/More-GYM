@@ -9,7 +9,7 @@
         android:background="#00000A">
 
         <TextView
-            android:id="@+id/nemate_ra_un__registrirajte_se_"
+            android:id="@+id/nemate_racun"
             android:layout_width="355dp"
             android:layout_height="30.6dp"
             android:layout_gravity="center_horizontal|center"
@@ -269,6 +269,12 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="30dp"
             android:layout_marginTop="460dp">
+
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible" />
 
             <View
                 android:id="@+id/btn_login"
