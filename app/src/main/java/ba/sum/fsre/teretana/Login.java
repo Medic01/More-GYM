@@ -7,9 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ProgressBar;
-import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -22,11 +20,11 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class Login extends AppCompatActivity {
 
-    TextView editTextEmail, editTextPassword;
+    TextInputEditText editTextEmail, editTextPassword;
     View buttonLogin;
     FirebaseAuth mAuth;
     ProgressBar progressBar;
-    TextView textView;
+    View registerView;
 
 
     @Override
@@ -47,11 +45,12 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
 
         mAuth= FirebaseAuth.getInstance();
-        editTextEmail=findViewById(R.id.email);
-        editTextPassword=findViewById(R.id.password);
+        editTextEmail=findViewById(R.id.editTextEmail);
+        editTextPassword=findViewById(R.id.editTextPassword);
         buttonLogin=findViewById(R.id.btn_login);
-        textView = findViewById(R.id.registerNow);
-        textView.setOnClickListener(new View.OnClickListener() {
+        registerView = findViewById(R.id.registerNow);
+
+        registerView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getApplicationContext(), Register.class);

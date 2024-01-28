@@ -68,25 +68,19 @@
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp">
 
-            <View
-                android:id="@+id/_bg__text_field_ek1"
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="56dp"
-                android:layout_marginStart="0dp"
-                android:layout_marginTop="0dp"
-                android:background="@drawable/_bg__text_field_ek1_shape" />
+                android:layout_height="wrap_content">
 
-            <EditText
-                android:id="@+id/email"
-                android:layout_width="match_parent"
-                android:layout_height="28.6dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="16dp"
-                android:ems="10"
-                android:inputType="text"
-                android:text="@string/text_string"
-                android:textColor="@color/text_color"
-                android:textSize="16sp" />
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTextEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/_bg__text_field_ek1_shape"
+                    android:hint="@string/name" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
 
         </RelativeLayout>
 
@@ -96,27 +90,21 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="15dp"
             android:layout_marginTop="10dp"
-            android:layout_marginBottom="10dp">
+            android:layout_marginBottom="5dp">
 
-            <View
-                android:id="@+id/_bg__text_field_ek1"
+            <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
-                android:layout_height="56dp"
-                android:layout_marginStart="0dp"
-                android:layout_marginTop="0dp"
-                android:background="@drawable/_bg__text_field_ek1_shape" />
+                android:layout_height="wrap_content">
 
-            <EditText
-                android:id="@+id/email"
-                android:layout_width="match_parent"
-                android:layout_height="28.6dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="16dp"
-                android:ems="10"
-                android:inputType="text"
-                android:text="@string/text_string"
-                android:textColor="@color/text_color"
-                android:textSize="16sp" />
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTextEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/_bg__text_field_ek1_shape"
+                    android:hint="@string/text_string" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
 
         </RelativeLayout>
 
@@ -163,7 +151,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageButton
-            android:id="@+id/imageButton5"
+            android:id="@+id/imageButtonHome"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -171,7 +159,7 @@
             android:src="@drawable/home" />
 
         <ImageButton
-            android:id="@+id/imageButton6"
+            android:id="@+id/imageButtonStatus"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -179,7 +167,7 @@
             android:src="@drawable/refresh" />
 
         <ImageButton
-            android:id="@+id/imageButton7"
+            android:id="@+id/imageButtonProfile"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"

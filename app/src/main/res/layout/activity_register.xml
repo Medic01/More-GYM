@@ -8,33 +8,6 @@
         android:layout_height="match_parent"
         android:background="#00000A">
 
-        <RelativeLayout
-            android:id="@+id/text_field_ek3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="416dp">
-
-            <View
-                android:id="@+id/_bg__text_field_ek3"
-                android:layout_width="348dp"
-                android:layout_height="56dp"
-                android:layout_marginStart="0dp"
-                android:layout_marginTop="0dp"
-                android:background="@drawable/_bg__text_field_ek3_shape" />
-
-            <EditText
-                android:id="@+id/password"
-                android:layout_width="330.6dp"
-                android:layout_height="28.6dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="16dp"
-                android:text="@string/text_ek3_string"
-                android:textColor="@color/text_color"
-                android:textSize="16sp" />
-
-        </RelativeLayout>
-
         <TextView
             android:id="@+id/registriraj_se"
             android:layout_width="355dp"
@@ -47,6 +20,75 @@
             android:textColor="@color/neki_motivirajuci_citat_od_shvajcenegera_color"
             android:textSize="20sp"
             android:textStyle="bold" />
+
+        <RelativeLayout
+            android:id="@+id/text_field"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="270dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTextEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/_bg__text_field_ek1_shape"
+                    android:hint="@string/text_string" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/text_field"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="340dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTextPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/_bg__text_field_ek1_shape"
+                    android:hint="@string/text_ek1_string" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/text_field"
+            android:layout_width="348dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="410dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/editTextConfirmPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/_bg__text_field_ek1_shape"
+                    android:hint="@string/text_ek1_string_potvrdi" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+        </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="348dp"
@@ -63,7 +105,7 @@
                 android:background="@drawable/_bg__button_outline_ek1_shape" />
 
             <TextView
-                android:id="@+id/registerNow"
+                android:id="@+id/textRegisternow"
                 android:layout_width="match_parent"
                 android:layout_height="28.6dp"
                 android:layout_gravity="center_horizontal|center"
@@ -218,62 +260,6 @@
                 android:text="@string/citat"
                 android:textColor="@color/neki_motivirajuci_citat_od_shvajcenegera_color"
                 android:textSize="14sp" />
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/text_field"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="272dp">
-
-            <View
-                android:id="@+id/_bg__text_field_ek1"
-                android:layout_width="348dp"
-                android:layout_height="56dp"
-                android:layout_marginStart="0dp"
-                android:layout_marginTop="0dp"
-                android:background="@drawable/_bg__text_field_ek1_shape" />
-
-            <EditText
-                android:id="@+id/email"
-                android:layout_width="330.6dp"
-                android:layout_height="28.6dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="16dp"
-                android:ems="10"
-                android:inputType="text"
-                android:text="@string/text_string"
-                android:textColor="@color/text_color"
-                android:textSize="16sp" />
-
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/text_field_ek3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="344dp">
-
-            <View
-                android:id="@+id/_bg__text_field_ek3"
-                android:layout_width="348dp"
-                android:layout_height="56dp"
-                android:layout_marginStart="0dp"
-                android:layout_marginTop="0dp"
-                android:background="@drawable/_bg__text_field_ek3_shape" />
-
-            <EditText
-                android:id="@+id/password"
-                android:layout_width="330.6dp"
-                android:layout_height="28.6dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="16dp"
-                android:text="@string/text_ek1_string"
-                android:textColor="@color/text_color"
-                android:textSize="16sp" />
 
         </RelativeLayout>
 

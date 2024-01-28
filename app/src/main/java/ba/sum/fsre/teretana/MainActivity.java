@@ -15,7 +15,8 @@ import com.google.firebase.auth.FirebaseUser;
 public class MainActivity extends AppCompatActivity {
 
     FirebaseAuth auth;
-    ImageButton button;
+    ImageButton imageButtonLogout;
+    ImageButton imageButtonProfile;
     TextView textView;
     FirebaseUser user;
 
@@ -26,7 +27,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         auth = FirebaseAuth.getInstance();
-        button = findViewById(R.id.logout);
+        imageButtonLogout = findViewById(R.id.logout);
+        imageButtonProfile = findViewById(R.id.imageButtonProfile);
         textView = findViewById(R.id.user_details);
         user = auth.getCurrentUser();
 
@@ -39,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
             textView.setText(user.getEmail());
         }
 
-        button.setOnClickListener(new View.OnClickListener() {
+        imageButtonLogout.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 FirebaseAuth.getInstance().signOut();
@@ -48,5 +50,19 @@ public class MainActivity extends AppCompatActivity {
                 finish();
             }
         });
+
+        imageButtonProfile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Start the ProfileActivity
+                Intent intent = new Intent(getApplicationContext(), ProfileActivity.class);
+                startActivity(intent);
+            }
+        });
+
+
+
+
+
     }
 }
