@@ -2,7 +2,7 @@
 <resources>
     <!-- login strings -->
 
-    <string name="app_name">Interface</string>
+    <string name="app_name">MORE</string>
     <string name="ek_img_content">ExportKit Image</string>
     <string name="more_string">MORE</string>
     <string name="citat">Neki motivirajuci citat od Shvajcenegera</string>
@@ -11,8 +11,10 @@
     <string name="profil_promjeni_fotografiju">Promjeni fotografiju</string>
     <string name="logout">Odjavi se</string>
     <string name="login"> LOGIN</string>
+    <string name="name">Ime</string>
 
     <string name="text_ek1_string">Lozinka</string>
+    <string name="text_ek1_string_potvrdi">Potvrdi lozinku</string>
     <string name="bot_o_string">Prijavi se</string>
     <string name="prijavi_se_string">Prijavi se</string>
     <string name="nemate_ra_un__registrirajte_se__string">Nemate raun? Registrirajte se!</string>

@@ -227,7 +227,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageButton
-            android:id="@+id/imageButton5"
+            android:id="@+id/imageButtonHome"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -235,7 +235,7 @@
             android:src="@drawable/home_green" />
 
         <ImageButton
-            android:id="@+id/imageButton6"
+            android:id="@+id/imageButtonStatus"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -243,7 +243,7 @@
             android:src="@drawable/refresh" />
 
         <ImageButton
-            android:id="@+id/imageButton7"
+            android:id="@+id/imageButtonProfile"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"

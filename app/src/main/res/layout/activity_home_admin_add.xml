@@ -406,7 +406,7 @@
                             android:background="@drawable/_bg__button_outline_ek1_shape" />
 
                         <TextView
-                            android:id="@+id/registerNow"
+                            android:id="@+id/textRegisternow"
                             android:layout_width="match_parent"
                             android:layout_height="28.6dp"
                             android:layout_gravity="center_horizontal|center"
@@ -469,7 +469,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <ImageButton
-            android:id="@+id/imageButton5"
+            android:id="@+id/imageButtonHome"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -477,7 +477,7 @@
             android:src="@drawable/home_green" />
 
         <ImageButton
-            android:id="@+id/imageButton6"
+            android:id="@+id/imageButtonStatus"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -485,7 +485,7 @@
             android:src="@drawable/refresh" />
 
         <ImageButton
-            android:id="@+id/imageButton7"
+            android:id="@+id/imageButtonProfile"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_weight="1"

@@ -7,10 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ProgressBar;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -22,10 +19,10 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class Register extends AppCompatActivity {
 
-    EditText editTextaEmail, editTextPassword;
+    TextInputEditText editTextEmail, editTextPassword, editTextConfirmPassword;
     View buttonReg;
     FirebaseAuth mAuth;
-    //ProgressBar progressBar;
+
     View textView;
 
     @Override
@@ -45,8 +42,9 @@ public class Register extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         mAuth= FirebaseAuth.getInstance();
-        editTextaEmail=findViewById(R.id.email);
-        editTextPassword=findViewById(R.id.password);
+        editTextEmail=findViewById(R.id.editTextEmail);
+        editTextPassword=findViewById(R.id.editTextPassword);
+        editTextConfirmPassword=findViewById(R.id.editTextConfirmPassword);
         buttonReg=findViewById(R.id.btn_register);
         //progressBar=findViewById(R.id.progressBar);
         textView = findViewById(R.id.loginNow);
@@ -62,9 +60,10 @@ public class Register extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 //progressBar.setVisibility(View.VISIBLE);
-                String email, password;
-                email = String.valueOf(editTextaEmail.getText());
+                String email, password, confirmPassword;
+                email = String.valueOf(editTextEmail.getText());
                 password = String.valueOf(editTextPassword.getText());
+                confirmPassword = String.valueOf(editTextConfirmPassword.getText());
 
                 if(TextUtils.isEmpty(email)){
                     Toast.makeText(Register.this, "Enter email", Toast.LENGTH_SHORT).show();
@@ -74,6 +73,11 @@ public class Register extends AppCompatActivity {
                     Toast.makeText(Register.this, "Enter password", Toast.LENGTH_SHORT).show();
                     return;
                 }
+                if (!password.equals(confirmPassword)) {
+                    Toast.makeText(Register.this, "Passwords do not match", Toast.LENGTH_SHORT).show();
+                    return;
+                }
+
                 mAuth.createUserWithEmailAndPassword(email, password)
                         .addOnCompleteListener( new OnCompleteListener<AuthResult>() {
                             @Override
