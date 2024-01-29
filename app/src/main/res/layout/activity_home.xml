@@ -301,53 +301,6 @@
                 android:paddingEnd="15dp">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginEnd="0dp"
-                    android:layout_marginBottom="10dp"
-                    android:background="#29292E"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:orientation="vertical"
-                        android:paddingLeft="10dp"
-                        android:paddingTop="16dp"
-                        android:paddingRight="10dp"
-                        android:paddingBottom="16dp">
-
-                        <TextView
-                            android:id="@+id/textViewVjezba1"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:textColor="#FFFFFF"
-                            tools:text="@string/vjezba1" />
-
-                        <TextView
-                            android:id="@+id/textViewOpis1"
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_weight="1"
-                            android:textColor="#C4C4CC"
-                            tools:text="@string/ponavljaja1" />
-                    </LinearLayout>
-
-                    <ImageButton
-                        android:id="@+id/imageButton1"
-                        android:layout_width="wrap_content"
-                        android:layout_height="match_parent"
-                        android:layout_weight="1"
-                        android:background="#29292E"
-                        android:paddingRight="10dp"
-                        app:srcCompat="@drawable/next" />
-
-                </LinearLayout>
-
-                <LinearLayout
                     android:layout_width="380dp"
                     android:layout_height="83dp"
                     android:layout_marginTop="5dp"

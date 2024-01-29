@@ -12,6 +12,7 @@
     <string name="logout">Odjavi se</string>
     <string name="login"> LOGIN</string>
     <string name="name">Ime</string>
+    <string name="spasi_promjene">Spasi promjene</string>
 
     <string name="text_ek1_string">Lozinka</string>
     <string name="text_ek1_string_potvrdi">Potvrdi lozinku</string>
